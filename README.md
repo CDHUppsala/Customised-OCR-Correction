@@ -16,7 +16,9 @@ c) The algorithm also attempts to locate words that are written with white space
 
 ## Programming libraries needed
 pip install pyspellchecker
+
 conda install -c anaconda nltk
+
 conda install -c conda-forge matplotlib
 
 (Read more about the spell checker: https://pyspellchecker.readthedocs.io)
