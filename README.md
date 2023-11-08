@@ -24,7 +24,7 @@ conda install -c conda-forge matplotlib
 (Read more about the spell checker: https://pyspellchecker.readthedocs.io)
 
 ## Acknowledgements
-This work is part of the reseaerch project Acting out Disease: How Patient Organizations Shaped Modern Medicine (ActDisease). More information about the project can be found here: https://www.actdisease.org/
+This work is part of the research project Acting out Disease: How Patient Organizations Shaped Modern Medicine (ActDisease). More information about the project can be found here: https://www.actdisease.org/
 
 ## References
 Thompson, P., McNaught, J. and Ananiadou, S. (2015) ‘Customised OCR correction for historical medical text’, in 2015 Digital Heritage. 2015 Digital Heritage, Granada, Spain: IEEE, pp. 35–42. Available at: https://doi.org/10.1109/DigitalHeritage.2015.7413829.
