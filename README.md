@@ -11,7 +11,7 @@ There are some additions to the original algorithm:
 
 a) A word is not replaced if the frequency of the original word in the corpus is higher than the frequency for the spellchecker's suggestion for replacement
 
-b) A compound-splitting of words is also added to the spell checker. What compound splitter to use is configurable, either you can write your own, or use an existing. It is thereby possible to adpat the compound splitting to the language of the text and to choose whether to use a compound splitter that is more a less generous whith flagging words as correct.
+b) A compound-splitting of words is also added to the spell checker. What compound splitter to use is configurable, either you can write your own, or use an existing. It is thereby possible to adapt the compound splitting to the language of the text and to choose whether to use a compound splitter that is more a less generous with flagging words as correct.
 
 c) The algorithm also attempts to locate words that are written with white space between characters and change these to words in which the charachters are not separated by white space.
 
