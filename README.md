@@ -8,7 +8,7 @@ The type of OCR:ed corpus that the algorithm targets is one with a high quality 
 User-made word lists can be used for the correction. The spellchecker only has built-in word lists for a few languages, so for most languages, user-made word lists are required.
 
 There are some additions to the original algorithm:
-a) A word is not replaced if the frequency of the original word is higher than the frequency for the spellcheckar's suggestion for replacement
+a) A word is not replaced if the frequency of the original word is higher than the frequency for the spellchecker's suggestion for replacement
 b) A compound splitting of words is also performed by t
 c) The algorithm also attempts to locate words that are written with white space between characters and change these to words in which the charachters are not separated by white space.
 
@@ -22,3 +22,6 @@ conda install -c anaconda nltk
 conda install -c conda-forge matplotlib
 
 (Read more about the spell checker: https://pyspellchecker.readthedocs.io)
+
+## References
+Thompson, P., McNaught, J. and Ananiadou, S. (2015) ‘Customised OCR correction for historical medical text’, in 2015 Digital Heritage. 2015 Digital Heritage, Granada, Spain: IEEE, pp. 35–42. Available at: https://doi.org/10.1109/DigitalHeritage.2015.7413829.
