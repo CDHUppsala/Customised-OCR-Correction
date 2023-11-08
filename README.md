@@ -1,5 +1,5 @@
 # Customised-OCR-Correction
-A word-list based OCR post-correction, originally designed for historical medical text
+A word-list based OCR post-correction, originally designed for historical medical text. 
 
 This is a re-implementation of Thompson et al.'s algorithm for OCR post-correction. The implementation is built on the spellchecker "pyspellchecker". "Customised" refers to that suggested corrections are only used if their frequency in the OCR:ed corpus exceeds a cut-off. As a default, a cut-off of 2 is used, (i.e., at least two occurrences are required).
 
@@ -22,6 +22,9 @@ conda install -c anaconda nltk
 conda install -c conda-forge matplotlib
 
 (Read more about the spell checker: https://pyspellchecker.readthedocs.io)
+
+## Acknowledgements
+This work is part of the reseaerch project Acting out Disease: How Patient Organizations Shaped Modern Medicine (ActDisease). More information about the project can be found here: https://www.actdisease.org/
 
 ## References
 Thompson, P., McNaught, J. and Ananiadou, S. (2015) ‘Customised OCR correction for historical medical text’, in 2015 Digital Heritage. 2015 Digital Heritage, Granada, Spain: IEEE, pp. 35–42. Available at: https://doi.org/10.1109/DigitalHeritage.2015.7413829.
