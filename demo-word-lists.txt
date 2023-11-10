@@ -1,0 +1,3 @@
+example_word_lists/first_roman.txt
+example_word_lists/some_swedish_words.txt
+example_word_lists/units.txt
