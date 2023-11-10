@@ -9,7 +9,7 @@ The type of OCR:ed corpus that the algorithm targets is one with a high quality 
 
 User-made word lists can be used for the correction. The spellchecker only has built-in word lists for a few languages, so for most languages, user-made word lists are required.
 
-Note that the files are currently expected to consist of one main folder, with subfolders, which contain ".txt-files", i.e. as ![nonsense-texts](nonsense-texts)
+Note that the files are currently expected to consist of one main folder, with subfolders, which contain ".txt-files", i.e. as ![nonsense-texts](https://github.com/CDHUppsala/Customised-OCR-Correction/tree/main/nonsense-texts)
 
 There are some additions to the original algorithm:
 
@@ -38,10 +38,10 @@ This work is part of the research project Acting out Disease: How Patient Organi
 Thompson, P., McNaught, J. and Ananiadou, S. (2015) ‘Customised OCR correction for historical medical text’, in 2015 Digital Heritage. 2015 Digital Heritage, Granada, Spain: IEEE, pp. 35–42. Available at: https://doi.org/10.1109/DigitalHeritage.2015.7413829.
 
 ## How we practically have used the code
-1. Gather relevant word lists, e.g. from corpora, lexicons and terminologies. One word per row, as in the file ![example_word_lists/some_swedish_words.txt](example_word_lists/some_swedish_words.txt)
+1. Gather relevant word lists, e.g. from corpora, lexicons and terminologies. One word per row, as in the file ![example_word_lists/some_swedish_words.txt](https://github.com/CDHUppsala/Customised-OCR-Correction/tree/main/example_word_lists/some_swedish_words.txt)
 
 
-2. Note the word lists in a file, one list per row, as in ![demo-word-lists.txt](demo-word-lists.txt)
+2. Note the word lists in a file, one list per row, as in ![demo-word-lists.txt](https://github.com/CDHUppsala/Customised-OCR-Correction/tree/main/demo-word-lists.txt)
 
 3. Choose spell checker configuration, eg what compound splitter to use, the maximum edit distance, min occurrences in the OCR:ed corpus
 
