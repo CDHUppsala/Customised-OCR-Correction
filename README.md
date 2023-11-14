@@ -47,6 +47,6 @@ Thompson, P., McNaught, J. and Ananiadou, S. (2015) ‘Customised OCR correction
 
 4. Run on the corpus, with the chosen configuration. A number of output files will be created. In the created folder with the suffix '_statistics', there is a file starting with 'not_found'
 
-5. Manually go through the outputfile 'not_found', and add frequent unknown words to the word-lists with known words.  Some of the words that will likely be OCR-missinterpretations of common words not in the word lists. (The unknown words are ordered in frequency.)
+5. Manually go through the outputfile 'not_found', and add frequent unknown words to the word-lists with known words.  Some of the words will likely be OCR-missinterpretations of common words not in the word lists. (The unknown words are ordered in frequency.)
 
 6. Run the correction functionality once more. This time go through the file 'replacements_made' and make sure that the replacements are correct. For incorrect replacements, you can either add the word on the list of words not to replace (as an argument when running the spellchecker), or add the word to the word-lists. Depending on if it’s more important for you to replace potential incorrect words or make sure not to replace unknown words that are in fact correct, you can choose to manually verify all, or only a subset of the replacements made.
