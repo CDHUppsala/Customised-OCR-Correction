@@ -19,7 +19,7 @@ b) A compound-splitting of words is also added to the spell checker. What compou
 
 c) The algorithm also attempts to locate words that are written with white space between characters and change these to words in which the charachters are not separated by white space.
 
-d) Error statics are also calcualted and plotted
+d) Error statics are also calculated and plotted
 
 ## Programming libraries needed
 pip install pyspellchecker
